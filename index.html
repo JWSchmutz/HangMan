@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/css/schmutz.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/css/style.css"
+    />
+  </head>
+  <body>
+    <div
+      class="background-dark-red font-dark-navy opaque-3 fixed-right-4 fixed-top-4 padding-4"
+    >
+      <h6>Hangman Game!</h6>
+      <h3 id="h3rompot">
+        Guess letters to complete the names <br />of the Spider-Man characters.
+      </h3>
+      <br />
+      <ul style="line-height: 40px">
+        <li>
+          <h3>Wins: <span id="wins-text"></span></h3>
+        </li>
+        <li>
+          <h3>Losses: <span id="losses-text"></span></h3>
+        </li>
+        <li>
+          <h3>Guesses Remianing: <span id="guesses-remaining-text"></span></h3>
+        </li>
+        <li>
+          <h3>Incorrect Guesses: <span id="guessed-letters-text"></span></h3>
+        </li>
+      </ul>
+      <br />
+      <h3>Current Word:</h3>
+      <h5 id="word-text" style="word-spacing: 20px; letter-spacing: 7px;"></h5>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
